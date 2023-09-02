@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/solmike/static/css/main.88404e20.css",
-    "main.js": "/solmike/static/js/main.74f9dc01.js",
+    "main.js": "/solmike/static/js/main.085b07c1.js",
     "static/js/787.735a98e7.chunk.js": "/solmike/static/js/787.735a98e7.chunk.js",
     "index.html": "/solmike/index.html",
     "main.88404e20.css.map": "/solmike/static/css/main.88404e20.css.map",
-    "main.74f9dc01.js.map": "/solmike/static/js/main.74f9dc01.js.map",
+    "main.085b07c1.js.map": "/solmike/static/js/main.085b07c1.js.map",
     "787.735a98e7.chunk.js.map": "/solmike/static/js/787.735a98e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88404e20.css",
-    "static/js/main.74f9dc01.js"
+    "static/js/main.085b07c1.js"
   ]
 }
