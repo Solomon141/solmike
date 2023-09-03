@@ -1,0 +1,33 @@
+.footerStyleNew {
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  background-color: "gray";
+  color: "white";
+  padding: "6vh";
+  margin-top: "2vm";
+  row-gap: "2vh";
+}
+
+.socialStyle {
+  display: "flex";
+  flex-direction: "row";
+  color: "white";
+  column-gap: "2vh";
+}
+
+.HeadingBackGround {
+  display: "flex";
+  flex-direction: "column";
+  background-color: "gray";
+  padding: "4vh";
+  border-radius: "2vh";
+  justify-content: "center";
+  align-items: "center";
+}
+
+.PageHeadingText {
+  font-size: "30px";
+  font-weight: "bold";
+  font-style: "italic";
+}
