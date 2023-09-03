@@ -97,7 +97,7 @@ function App() {
           <FaTelegram size="4vh" />
         </div>
         <div>
-          <FaPhone size="2vh" /> +2519-35-811-576
+          <FaPhone size="2vh" /> +2519-35-811-576 
         </div>
       </div>
     </>
