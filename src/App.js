@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -10,6 +10,7 @@ import Certifications from "./screens/Certifications";
 import Backends from "./screens/Backends";
 import MobileApps from "./screens/MobileApps";
 import WebApps from "./screens/WebApps";
+import ExpChart from "./screens/ExpChart";
 
 //Style
 import styles from "./Styles/Styles.module.css";
@@ -17,7 +18,28 @@ import styles from "./Styles/Styles.module.css";
 // Bloggs
 import Blogs from "./screens/Blogs";
 
+import { UserData } from "./Data/Data";
+
 function App() {
+
+  const [userData, setUserData] = useState({
+    labels: UserData.map((data) => data.techs),
+    datasets: [
+      {
+        label: "Years of experience Vs Technologies list",
+        data: UserData.map((data) => data.year),
+        backgroundColor: [
+          "rgba(75,192,192,1)",
+          "#ecf0f1",
+          "#50AF95",
+          "#f3ba2f",
+          "#2a71d0",
+        ],
+        
+      },
+    ],
+  });
+
   const footerStyle = {
     display: "flex",
     flexDirection: "column",
@@ -72,6 +94,7 @@ function App() {
       <Container>
         <div id="aboutme">
           <AboutMe />
+          <ExpChart chartData={userData} />
           <Certifications />
         </div>
         <div id="mobileapps">
@@ -99,7 +122,7 @@ function App() {
           <FaTelegram size="4vh" />
         </div>
         <div>
-          <FaPhone size="2vh" /> +2519-35-811-576 
+          <FaPhone size="2vh" /> +2519-35-811-576
         </div>
       </div>
     </>
