@@ -9,7 +9,6 @@ function MobileApps() {
     setIndex(selectedIndex);
   };
   return (
-    <div style={{ height: "500px" }}>
       <div className="container">
         <div className="row">
           <div className="col-sm-6">
@@ -47,7 +46,6 @@ function MobileApps() {
           <div className="col-sm-6"> </div>
         </div>
       </div>
-    </div>
   );
 }
 
