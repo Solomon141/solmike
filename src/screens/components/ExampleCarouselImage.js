@@ -4,7 +4,7 @@ function ExampleCarouselImage() {
   return (
     <div
       style={{
-        height: "45vh",
+        height: "55vh",
         backgroundColor: "orange",
         marginBottom: "2vh",
         marginTop: "2vh",

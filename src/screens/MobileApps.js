@@ -9,7 +9,7 @@ function MobileApps() {
     setIndex(selectedIndex);
   };
   return (
-      <div className="container">
+      
         <div className="row">
           <div className="col-sm-6">
             <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -42,10 +42,11 @@ function MobileApps() {
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
+            <p> This is the first react native app i have build  </p>
           </div>
           <div className="col-sm-6"> </div>
         </div>
-      </div>
+     
   );
 }
 

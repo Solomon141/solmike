@@ -60,7 +60,7 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto"></Nav>
-            <Nav className="d-flex" style={{ maxHeight: "100px" }} navbarScroll>
+            <Nav className="d-flex" navbarScroll>
               <Nav.Link href="#mobileapps">mobile</Nav.Link>
               <Nav.Link href="#webapps">web</Nav.Link>
               <Nav.Link href="#backends">backend</Nav.Link>

@@ -4,7 +4,7 @@ import { FaHeart } from "react-icons/fa";
 
 function AboutMe() {
   return (
-    <div class="section one" id="aboutme" style={{ paddingTop: "12vh" }}>
+    <div class="section one" id="aboutme" style={{ paddingTop: "8vh" }}>
       <div class="row" style={{paddingTop:15, paddingBottom:15}}>
         <div class="col-sm-4">
           {/* image */}
