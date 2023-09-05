@@ -6,6 +6,7 @@ import { FaFacebook, FaTwitter, FaTelegram, FaPhone } from "react-icons/fa";
 
 import AboutMe from "./screens/AboutMe";
 // import AboveNav from "./screens/AboveNav";
+import Certifications from "./screens/Certifications";
 import Backends from "./screens/Backends";
 import MobileApps from "./screens/MobileApps";
 import WebApps from "./screens/WebApps";
@@ -71,6 +72,7 @@ function App() {
       <Container>
         <div id="aboutme">
           <AboutMe />
+          <Certifications />
         </div>
         <div id="mobileapps">
           <div style={HeadingBackGround}>Mobile App / React Native</div>
