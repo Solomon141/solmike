@@ -39,53 +39,7 @@ function Blogs() {
         </Card>
       </div>
 
-      <div className="col-sm-4" style={{ marginTop: "2vh" }}>
-        <Card style={{ width: "100%" }}>
-          <Card.Body>
-            <Card.Title>React Native - Part 2</Card.Title>
-            <Card.Text>
-              <ul>
-                <li> Creating React Native </li>
-                <li> Recommended folder structure </li>
-                <li> Configuring Redux Toolkit </li>
-              </ul>
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-      </div>
-
-      <div className="col-sm-4" style={{ marginTop: "2vh" }}>
-        <Card style={{ width: "100%" }}>
-          <Card.Body>
-            <Card.Title>React Native - Part 3</Card.Title>
-            <Card.Text>
-              <ul>
-                <li> Creating React Native </li>
-                <li> Recommended folder structure </li>
-                <li> Configuring Redux Toolkit </li>
-              </ul>
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-      </div>
-
-      <div className="col-sm-4" style={{ marginTop: "2vh" }}>
-        <Card style={{ width: "100%" }}>
-          <Card.Body>
-            <Card.Title>React Native - Part 4</Card.Title>
-            <Card.Text>
-              <ul>
-                <li> Creating React Native </li>
-                <li> Recommended folder structure </li>
-                <li> Configuring Redux Toolkit </li>
-              </ul>
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-      </div>
+      
       {/* React Native End  */}
 
       {/* React JS Start  */}
@@ -105,53 +59,7 @@ function Blogs() {
         </Card>
       </div>
 
-      <div className="col-sm-4" style={{ marginTop: "2vh" }}>
-        <Card style={{ width: "100%" }}>
-          <Card.Body>
-            <Card.Title>React JS - Part 2</Card.Title>
-            <Card.Text>
-              <ul>
-                <li> Creating React JS </li>
-                <li> Recommended folder structure </li>
-                <li> Configuring Redux Toolkit </li>
-              </ul>
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-      </div>
-
-      <div className="col-sm-4" style={{ marginTop: "2vh" }}>
-        <Card style={{ width: "100%" }}>
-          <Card.Body>
-            <Card.Title>React JS - Part 3</Card.Title>
-            <Card.Text>
-              <ul>
-                <li> Creating React JS </li>
-                <li> Recommended folder structure </li>
-                <li> Configuring Redux Toolkit </li>
-              </ul>
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-      </div>
-
-      <div className="col-sm-4" style={{ marginTop: "2vh" }}>
-        <Card style={{ width: "100%" }}>
-          <Card.Body>
-            <Card.Title>React JS - Part 4</Card.Title>
-            <Card.Text>
-              <ul>
-                <li> Creating React JS </li>
-                <li> Recommended folder structure </li>
-                <li> Configuring Redux Toolkit </li>
-              </ul>
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-      </div>
+     
       {/* React JS End  */}
 
 
