@@ -4,13 +4,12 @@ function ExampleCarouselImage() {
   return (
     <div
       style={{
-        height: "35vh",
+        height: "45vh",
         backgroundColor: "orange",
         marginBottom: "2vh",
         marginTop: "2vh",
       }}
     >
-      ExampleCarouselImage
     </div>
   );
 }
