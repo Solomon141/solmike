@@ -1,7 +1,12 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from './components/ExampleCarouselImage';
-
+// images 
+import Login from "./Images/PHP/Eval/Login.PNG"
+import Home from "./Images/PHP/Eval/Home.PNG"
+import search from "./Images/PHP/Eval/search.PNG"
+import selectedPharm from "./Images/PHP/Eval/selectedPharm.PNG"
+import eachProduct from "./Images/PHP/Eval/eachProduct.PNG"
 
 function WebApps() {
   const [index, setIndex] = useState(0);
@@ -15,8 +20,11 @@ function WebApps() {
       <div className="col-sm-6">
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
+            
             <ExampleCarouselImage text="First slide" />
+
             <Carousel.Caption>
+
               <h3>First slide label</h3>
               <p>
                 Nulla vitae elit libero, a pharetra augue mollis interdum.
@@ -45,7 +53,9 @@ function WebApps() {
         </Carousel>
         <p> This is the first react native app i have build  </p>
       </div>
-      <div className="col-sm-6"> </div>
+      <div className="col-sm-6">
+
+      </div>
     </div>
   )
 }

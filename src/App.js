@@ -104,10 +104,10 @@ function App() {
           <div style={HeadingBackGround}> Websites (React, HTML)</div>
           <WebApps />
         </div>
-        <div id="backends">
+        {/* <div id="backends">
           <div style={HeadingBackGround}> Backends (PHP, Django) </div>
           <Backends />
-        </div>
+        </div> */}
         <div id="blogs">
           <div style={HeadingBackGround}>Blog Contents </div>
           <Blogs />
