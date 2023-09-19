@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/solmike/static/css/main.3836f19a.css",
-    "main.js": "/solmike/static/js/main.bc03a10b.js",
+    "main.css": "/solmike/static/css/main.5fe12658.css",
+    "main.js": "/solmike/static/js/main.86e938dc.js",
     "static/js/787.735a98e7.chunk.js": "/solmike/static/js/787.735a98e7.chunk.js",
     "static/media/CGoogleFirebase.webp": "/solmike/static/media/CGoogleFirebase.bd8dd6c5324604b0d4da.webp",
     "static/media/CNode.webp": "/solmike/static/media/CNode.ef2b2dae30abd09732e8.webp",
@@ -10,13 +10,18 @@
     "static/media/CREACT.webp": "/solmike/static/media/CREACT.85e352458eb5fd30c474.webp",
     "static/media/CVersionControl.webp": "/solmike/static/media/CVersionControl.573017ebab212b0f7854.webp",
     "static/media/CAPI.webp": "/solmike/static/media/CAPI.4ce0a1d1e99f2e4777e6.webp",
+    "static/media/search.PNG": "/solmike/static/media/search.38b6b68754a8a75bf396.PNG",
+    "static/media/eachProduct.PNG": "/solmike/static/media/eachProduct.7bcdf38ff0107ec4af2a.PNG",
+    "static/media/Home.PNG": "/solmike/static/media/Home.dabaabfb706db39e100c.PNG",
+    "static/media/selectedPharm.PNG": "/solmike/static/media/selectedPharm.ecfbc4cfe1b4955ab475.PNG",
+    "static/media/Login.PNG": "/solmike/static/media/Login.1fdd269494f5294c29f3.PNG",
     "index.html": "/solmike/index.html",
-    "main.3836f19a.css.map": "/solmike/static/css/main.3836f19a.css.map",
-    "main.bc03a10b.js.map": "/solmike/static/js/main.bc03a10b.js.map",
+    "main.5fe12658.css.map": "/solmike/static/css/main.5fe12658.css.map",
+    "main.86e938dc.js.map": "/solmike/static/js/main.86e938dc.js.map",
     "787.735a98e7.chunk.js.map": "/solmike/static/js/787.735a98e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3836f19a.css",
-    "static/js/main.bc03a10b.js"
+    "static/css/main.5fe12658.css",
+    "static/js/main.86e938dc.js"
   ]
 }
