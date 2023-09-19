@@ -1,6 +1,6 @@
 import React from 'react'
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+// import Button from "react-bootstrap/Button";
+// import Card from "react-bootstrap/Card";
 import CAPI from './Certificates/CAPI.webp'
 import CGoogleFirebase from './Certificates/CGoogleFirebase.webp'
 import CNode from './Certificates/CNode.webp'

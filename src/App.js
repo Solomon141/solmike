@@ -13,7 +13,7 @@ import WebApps from "./screens/WebApps";
 import ExpChart from "./screens/ExpChart";
 
 //Style
-import styles from "./Styles/Styles.module.css";
+// import styles from "./Styles/Styles.module.css";
 
 // Bloggs
 import Blogs from "./screens/Blogs";
@@ -67,11 +67,11 @@ function App() {
     alignItems: "center",
   };
 
-  const PageHeadingText = {
-    fontSize: "30px",
-    fontWeight: "bold",
-    fontStyle: "italic",
-  };
+  // const PageHeadingText = {
+  //   fontSize: "30px",
+  //   fontWeight: "bold",
+  //   fontStyle: "italic",
+  // };
 
   return (
     <>
