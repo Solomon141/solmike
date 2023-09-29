@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
 
 function Blogs() {
   const HeadingOne = {
@@ -19,50 +20,6 @@ function Blogs() {
   return (
     <div className="row">
 
-      {/* React Native Start  */}
-      <div className="col-sm-4" style={{ marginTop: "2vh" }}>
-        <Card style={{ width: "100%" }}>
-          <Card.Body>
-            <Card.Title style={HeadingOne}>React Native - Part 1</Card.Title>
-            <Card.Text>
-              <ul>
-                <li> Creating React Native </li>
-                <li> Recommended folder structure </li>
-                <li> Configuring Redux Toolkit </li>
-              </ul>
-            </Card.Text>
-            <div style={cardFooterLinks}>
-              <div> <a href="https://github.com/">Github link</a> </div>
-              <div> <a href="https://github.com/">React Native Part 1</a> </div>
-            </div>
-          </Card.Body>
-        </Card>
-      </div>
-
-      
-      {/* React Native End  */}
-
-      {/* React JS Start  */}
-      <div className="col-sm-4" style={{ marginTop: "2vh" }}>
-        <Card style={{ width: "100%" }}>
-          <Card.Body>
-            <Card.Title>React JS - Part 1</Card.Title>
-            <Card.Text>
-              <ul>
-                <li> Creating React JS </li>
-                <li> Recommended folder structure </li>
-                <li> Configuring Redux Toolkit </li>
-              </ul>
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-      </div>
-
-     
-      {/* React JS End  */}
-
-
       <div className="col-sm-4" style={{ marginTop: "2vh" }}>
         <Card style={{ width: "100%" }}>
           <Card.Body>
@@ -76,8 +33,14 @@ function Blogs() {
               </ul>
             </Card.Text>
             <div style={cardFooterLinks}>
-              <div> <a href="https://github.com/">Github link</a> </div>
-              <div> <a href="https://github.com/"> Hosting Static Website </a> </div>
+              <div>
+                
+                <a href="https://github.com/">Github link</a>
+              </div>
+              <div>
+                
+                <a href="https://github.com/"> Hosting Static Website </a>
+              </div>
             </div>
           </Card.Body>
         </Card>
@@ -86,23 +49,27 @@ function Blogs() {
       <div className="col-sm-4" style={{ marginTop: "2vh" }}>
         <Card style={{ width: "100%" }}>
           <Card.Body>
-            <Card.Title style={HeadingOne}> How to Work With Github </Card.Title>
+            <Card.Title style={HeadingOne}>
+              Mobile app with React Native
+            </Card.Title>
             <Card.Text>
+              <p>This Project is a mobile app boilerplate developed using react native expo, including packages like</p>
               <ul>
-                <li> Creating Github Account </li>
-                <li> Giving access to Git </li>
-              
+                <li> Redux Toolkit for state management </li>
+                <li> Formik and Yup for schema validation </li>
+                <li> inext and i18next for language translation </li>
+                <li> System driven Dark/Default mode </li>
+                <li> Custom Drawer Navigation and others </li>
               </ul>
             </Card.Text>
             <div style={cardFooterLinks}>
-              <div> <a href="https://github.com/">Github link</a> </div>
-              <div> <a href="https://github.com/"> How to Work With Github </a> </div>
+              <div>
+                <a href="https://github.com/Solomon141/BoilerplateJavascriptReactNativeReduxToolkit">Github link</a>
+              </div>
             </div>
           </Card.Body>
         </Card>
       </div>
-
-
     </div>
   );
 }

@@ -10,7 +10,7 @@ import Certifications from "./screens/Certifications";
 import Backends from "./screens/Backends";
 import MobileApps from "./screens/MobileApps";
 import WebApps from "./screens/WebApps";
-import ExpChart from "./screens/ExpChart";
+// import ExpChart from "./screens/ExpChart";
 
 //Style
 // import styles from "./Styles/Styles.module.css";
@@ -93,7 +93,7 @@ function App() {
       <Container>
         <div id="aboutme">
           <AboutMe />
-          <ExpChart chartData={userData} />
+          {/* <ExpChart chartData={userData} /> */}
           <Certifications />
         </div>
         <div id="mobileapps">
